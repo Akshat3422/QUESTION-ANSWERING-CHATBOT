@@ -16,7 +16,9 @@ api_key=os.getenv("GROQ_API_KEY")
 model_name=os.getenv("MODEL_NAME")
 chat_groq = ChatGroq(api_key=api_key, model=model_name) #type:ignore
 
+langchain_api_key=os.getenv("LANGCHAIN_API_KEY")
 
+os.environ["LANGCHAIN_TRACING_V2"] = "true"
 
 
 #langsmith: python
