@@ -1,0 +1,10 @@
+langchain
+langchain-groq
+python-dotenv
+ipykernel
+langchain-community
+fastapi[all]
+uvicorn[standard]
+pydantic
+httpx
+.venv\Scr
